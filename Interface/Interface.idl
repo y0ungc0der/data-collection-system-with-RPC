@@ -1,0 +1,23 @@
+[
+	uuid(4b4d847a-d14c-4e87-93cf-b47af3a83474),
+	version(1.0),
+	implicit_handle(handle_t hBinding)
+]
+
+interface InterfaceRPC
+{
+	int logIn([in, size_is(user_len)] unsigned char *user, [in] unsigned user_len, [in, size_is(password_len)] unsigned char *password, [in] unsigned password_len);
+	int logOut();
+
+	int getOsVersionName([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getCurrentTime([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getTimeSinceStart([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getMemoryInfo([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getDrivesList([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getLogicalDrivesMemoryInfo([out, size_is(size)] unsigned char *arr, [in] int size);
+	int getOwner([in, string] char *path, [in] char seObType, [out, size_is(size)] unsigned char *arr, [in] int size);
+	int getAccessRights([in, string] char *path, [in] char seObType, [out, size_is(size)] unsigned char *arr, [in] int size);
+
+	void setPKeyToServer([in, size_is(len)] unsigned char *pbKeycBlob, [in] unsigned long len);
+	void recvEncrypSKeyFromServer([out, size_is(len)] unsigned char *encyptedSKey, [in] unsigned len, [out] unsigned long *encyptedSKeyLen);
+}

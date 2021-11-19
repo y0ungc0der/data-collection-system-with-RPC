@@ -1,0 +1,29 @@
+﻿  Interface_s.c
+  Crypt.c
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(37): warning C4047: функция: "HCRYPTKEY" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(37): warning C4024: CryptImportKey: различные типы для формального и фактического параметров 4
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(37): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(37): warning C4024: CryptImportKey: различные типы для формального и фактического параметров 5
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(44): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(44): warning C4024: CryptExportKey: различные типы для формального и фактического параметров 4
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(50): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(50): warning C4024: CryptExportKey: различные типы для формального и фактического параметров 4
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(62): warning C4010: однострочный комментарий содержит знак объединения строк
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(63): warning C4047: функция: "HCRYPTHASH" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(63): warning C4024: CryptEncrypt: различные типы для формального и фактического параметров 2
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(63): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(63): warning C4024: CryptEncrypt: различные типы для формального и фактического параметров 4
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(78): warning C4047: функция: "HCRYPTHASH" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(78): warning C4024: CryptDecrypt: различные типы для формального и фактического параметров 2
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(78): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\crypt.c(78): warning C4024: CryptDecrypt: различные типы для формального и фактического параметров 4
+  Server.c
+  System.c
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\system.c(231): warning C4028: формальный параметр 1 отличается от объявления
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\system.c(231): warning C4028: формальный параметр 2 отличается от объявления
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\system.c(285): warning C4028: формальный параметр 1 отличается от объявления
+c:\users\arina\desktop\mine&study\3 course\5 semester\безопасность современных информационных технологий 5 сем\лабораторные\лабораторная 1 доп\lab_1_add\server\system.c(285): warning C4028: формальный параметр 2 отличается от объявления
+  Создание кода
+  All 27 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Server.vcxproj -> C:\Users\Arina\Desktop\Mine&Study\3 course\5 semester\Безопасность современных информационных технологий 5 сем\Лабораторные\Лабораторная 1 доп\Lab_1_Add\Release\Server.exe
