@@ -1,1 +1,0 @@
-start "" "Release\Server.exe"

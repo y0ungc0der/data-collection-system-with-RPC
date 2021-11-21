@@ -1,1 +1,0 @@
-start "" "Release\Client.exe"

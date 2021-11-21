@@ -1,0 +1,5 @@
+*.bat
+/Release
+/Interface/Release
+/Client/Release
+/Server/Release
